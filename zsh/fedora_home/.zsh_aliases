@@ -1,0 +1,11 @@
+#alias docker=podman
+#alias docker-compose=podman-compose
+
+#Docker
+alias dc=docker-compose
+alias dps='docker ps'
+alias dims='docker images'
+
+#pbcopy & pbpaste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
