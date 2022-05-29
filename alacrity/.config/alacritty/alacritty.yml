@@ -158,12 +158,12 @@ colors:
   normal:
     black:   '0x000000'
     red:     '0xc62828'
-    green:   '0x00b300'
-    #green:   '0x00FF00'
-    yellow:  '0xFFD700'
-    blue:    '0x1E90FF'
+    green:   '0x00d787'
+    #green:   '0x00b300'
+    blue:    '0x00afd7'
     magenta: '0x9b59b6'
-    cyan:    '0x1abc9c'
+    cyan:    '0x008787'
+    #cyan:    '0x1abc9c'
     white:   '0xfcfcfc'
   # Normal colors
   #normal:
