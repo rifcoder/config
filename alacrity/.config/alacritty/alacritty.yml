@@ -52,6 +52,13 @@ window:
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
   startup_mode: Windowed
+  
+  # Background opacity
+  #
+  # Window opacity as a floating point number from `0.0` to `1.0`.
+  # The value `0.0` is completely transparent and `1.0` is opaque.
+  opacity: 1.0
+
 
 scrolling:
   # maximum number of lines in the scrollback buffer. Specifying '0' will
@@ -256,9 +263,6 @@ visual_bell:
   animation: EaseOutExpo
   color: '0xffffff'
   duration: 0
-
-# Background opacity
-background_opacity: 1.0
 
 # Key bindings
 #
@@ -512,13 +516,13 @@ debug:
   # Log level
   #
   # Values for `log_level`:
-  #   - None
+  #   - Off
   #   - Error
   #   - Warn
   #   - Info
   #   - Debug
   #   - Trace
-  log_level: None
+  log_level: Off
 
   # Print all received window events.
   print_events: false
